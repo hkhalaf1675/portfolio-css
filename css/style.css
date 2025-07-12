@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #FFFFFF;
+    --accent-color: #1E90FF;
+    --bg-color: #F8FAFC;
+    --border-color: #E5E7EB;
+    --text-color: #1F2937;
+    --card-color: #252424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.header ul {
+    list-style: none;
+}
+.header ul li{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+.header ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+.header ul li a span {
+    padding: 0 0.5rem;
+}
+.header ul li a:hover {
+    color: var(--accent-color);
+}
+
+hr {
+    color: var(--border-color);
+    margin: 2rem;
+}
+
+.content {
+    font-size: large;
+    line-height: 1.5;
+}
+
+.hero {
+    background-image: url('../assets/images/hero.png');
+    height: 50vh;
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 25%;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+}
+.profile span {
+    display: block;
+    padding: 0 2rem;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+.experiences .job {
+    background-color: var(--card-color);
+    color: var(--primary-color);
+    padding: 2rem;
+    margin: 0.5rem 0;
+    width: 65%;
+    border-radius: 1rem;
+    transition-duration: 1s;
+}
+.experiences .job:hover{
+    transform: translate(1%, 1%);
+}
+.experiences .job a {
+    text-decoration: none;
+    color: gold;
+}
+.experiences .job a:hover {
+    color: var(--accent-color);
+}
+.experiences .job ul {
+    margin: 0 0 1rem 1rem;
+}
+.experiences .job p span {
+    background-color: var(--border-color);
+    color: var(--text-color);
+    padding: 0.5rem;
+}
