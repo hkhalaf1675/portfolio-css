@@ -146,10 +146,10 @@ hr {
         margin: 2rem 2%;
     }
     .profile {
-        margin: 2rem 2%;
+        margin: 1rem 2%;
     }
     .experiences .job  {
-        margin: 2rem 2%;
+        margin: 0.5rem 2%;
     }
 }
 
@@ -162,10 +162,10 @@ hr {
         margin: 2rem 5%;
     }
     .profile {
-        margin: 2rem 5%;
+        margin: 1rem 5%;
     }
     .experiences .job  {
-        margin: 2rem 5%;
+        margin: 0.5rem 5%;
     }
 }
 
@@ -178,10 +178,10 @@ hr {
         margin: 2rem 10%;
     }
     .profile {
-        margin: 2rem 10%;
+        margin: 1rem 10%;
     }
     .experiences .job  {
-        margin: 2rem 10%;
+        margin: 0.5rem 10%;
     }
 }
 
@@ -194,7 +194,7 @@ hr {
         margin: 2rem 25%;
     }
     .profile {
-        margin: 0.5rem 15%;
+        margin: 1rem 15%;
     }
     .experiences .job  {
         margin: 0.5rem 15%;
